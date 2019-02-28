@@ -1,6 +1,6 @@
 '''
 Mendel's First Law
-2019.02.27
+2019.02.27ls
 
 Given:  Three positive integers k, m, and n, representing a population
         containing k+m+n organisms: k individuals are homozygous dominant for a

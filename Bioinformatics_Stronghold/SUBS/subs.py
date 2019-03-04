@@ -1,5 +1,6 @@
 '''
 Finding a Motif in DNA
+2019.02.28
 
 Given: Two DNA strings s and t (each of length at most 1 kbp).
 

@@ -11,19 +11,19 @@ such permutations (in any order).
 import sys
 import itertools
 
-def get_permutation_sequence(n):
-    permutation_sequence = []
-    for i in range(n):
-        permutation_sequence.append(i+1)
-
-    return permutation_sequence
-
 def get_num_permutations(n):
     permutations = 1
     for i in range(1, n+1):
         permutations *= i
 
     return permutations
+
+def get_permutation_sequence(n):
+    permutation_sequence = []
+    for i in range(n):
+        permutation_sequence.append(i+1)
+
+    return permutation_sequence
 
 def generate_permutations_of(n):
     permutation_sequence = get_permutation_sequence(n) # [1, 2, 3] for 3
